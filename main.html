@@ -1,0 +1,26 @@
+<head>
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <h1 id="header">BLACKJACK</h1>
+  <div id="gameboard">
+    <div class="hand" id="dealer-hand"></div>
+    <p id="pot-status">Current pot: $<span id="pot-amount">0</span><br />Chips remaining: $<span id="chips-amount">0</span></p>
+    <div class="hand" id="player-hand"></div>
+  </div>
+  <div id="player-options">
+    <p id="shuffle-status" class="hidden">The dealer reshuffles...</p>
+    <p id="status-bar">Press 'START' to buy in and start playing!</p>
+    <div id="options"><input id="start-button" type="submit" value="START" />
+    <input class="hidden" id="bet-field" type="text" /><input class="hidden" id="submit-bet" type="submit" value="BET" />
+    <input class="hidden" id="hit-button" type="submit" value="HIT" /><input class="hidden" id="stand-button" type="submit" value="STAND" />
+    <input class="hidden" id="play-again-button" type="submit" value="PLAY AGAIN" /><input class="hidden" id="quit-button" type="submit" value="QUIT" />
+    <input class="hidden" id="double-down-button" type="submit" value="DOUBLE DOWN" /><input class="hidden" id="dont-double-button" type="submit" value="PASS" />
+    <input class="hidden" id="split-button" type="submit" value="SPLIT" /><input class="hidden" id="dont-split-button" type="submit" value="PASS" />
+    <input class="hidden" id="insurance-bet-field" type="text" /><input class="hidden" id="submit-insurance-bet" type="submit" value="BET" /><input class="hidden" id="dont-insure-button" type="submit" value="PASS" />
+    <input class="hidden" id="continue-button" type="submit" value="CONTINUE" /></div>
+  </div>
+  <script src="main.js"></script></script>
+</body>

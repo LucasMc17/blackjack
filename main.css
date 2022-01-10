@@ -1,0 +1,51 @@
+body {
+  font-family: monospace, monospace;
+  text-align: center;
+}
+
+#header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+
+#gameboard {
+  color: white;
+  background-color: darkgreen;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.hand {
+  border: 2px solid white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  height: 225px;
+}
+
+#pot-status {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: brown;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#player-options {
+  margin-top: 10px;
+  border: 2px dotted black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
